@@ -2,11 +2,30 @@
 // Day 4
 //  Question 10
 Object.defineProperty(exports, "__esModule", { value: true });
-// In this program we write a Quotation"  " along with author name
-let author = "Imran Khan";
-let quotation = "You only loose when you give up";
-console.log(`"${author} once said,"${quotation}""`);
-// and we need to make sure the comma(,) and inverted commas ("") put in right place 
+// Author: Shehroz Hanif
+// Date: March 24, 2024
+// Description: This program calculates the average of three numbers and prints the result.
+function calculateAverage(num1, num2, num3) {
+    return (num1 + num2 + num3) / 3; // Calculate the average of three numbers
+}
+// Example usage:
+let average = calculateAverage(10, 20, 30);
+console.log("The average is:", average);
+// program 2
+// Author: Shehroz Hanif
+// Date: March 24, 2024
+// Description: This program checks if a given number is even or odd and prints the result.
+function checkEvenOrOdd(num) {
+    if (num % 2 === 0) {
+        return "Even"; // Return "Even" if the number is even
+    }
+    else {
+        return "Odd"; // Return "Odd" if the number is odd
+    }
+}
+// Example usage:
+let number = 5;
+console.log("Number", number, "is:", checkEvenOrOdd(number));
 // Question 11
 let friendList = ["nabil", "akbar", "huzaifa", "yazdani"];
 // // Store a friend names in an Array[]

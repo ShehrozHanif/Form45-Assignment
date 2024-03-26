@@ -1,12 +1,14 @@
 "use strict";
-// Question No 1
+// Question No 4
 Object.defineProperty(exports, "__esModule", { value: true });
 let author = "Imran Khan";
 let quotation = "You only loose when you give up";
 console.log(`"${author} once said,"${quotation}""`);
-// Question No 2
-// I already did in Question no 1 in short both answer in Q1
-// Question No 3
+// Question No 5
+let famousPerson = "Imran Khan";
+let message = "I Love Murshid";
+console.log(message + famousPerson);
+// Question No 6
 // With Extra Space and NewLine
 let name1 = "\t\n Shehroz \t\n";
 console.log(name1);
